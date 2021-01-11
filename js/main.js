@@ -1,6 +1,7 @@
 // @ts-check
 /* global Noty */
 import { Game } from "./Game.js";
+import { StatsPane } from "./StatsPane.js";
 import { settings } from "./Settings.js";
 import { notify } from "./Utils.js";
 
@@ -8,6 +9,8 @@ var game;
 var isFocused = true;
 
 window.onload = function () {
+    var stats = new StatsPane();
+    return;
     game = new Game();
 
     // If there's a save stored in localStorage, load it

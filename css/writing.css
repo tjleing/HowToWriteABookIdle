@@ -77,6 +77,12 @@ button {
 
 #stats {
 	margin: 15px;
+	padding: 15px;
+	display: inline-block;
+	position: fixed;
+	border:1px solid #000;
+	border-radius: 5px;
+	box-shadow: 5px 5px grey;
 }
 
 #settings {
